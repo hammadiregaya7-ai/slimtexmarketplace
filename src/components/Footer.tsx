@@ -61,7 +61,7 @@ export function Footer({ onNewsletter }: { onNewsletter: (email: string) => void
               <GlobeIcon className="h-5 w-5 shrink-0 text-ochre-400" />
               <div>
                 <dt className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-bone-700">Write to us</dt>
-                <dd className="mt-1 leading-relaxed text-bone-300">bench@weftandwarp.shop<br />+44 131 555 0187</dd>
+                <dd className="mt-1 leading-relaxed text-bone-300">bench@slimtex.shop<br />+44 131 555 0187</dd>
               </div>
             </div>
             <div className="flex gap-3 lg:flex-col xl:flex-row">
@@ -74,11 +74,15 @@ export function Footer({ onNewsletter }: { onNewsletter: (email: string) => void
           </dl>
         </div>
 
-        <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-bone-100/10 pt-6 sm:flex-row sm:items-center">
+        <p aria-hidden className="outline-text mt-14 select-none overflow-hidden whitespace-nowrap text-center font-display text-[22vw] font-black leading-[0.85] tracking-tight lg:text-[11rem]">
+          slimtex
+        </p>
+
+        <div className="mt-8 flex flex-col items-start justify-between gap-4 border-t border-bone-100/10 pt-6 sm:flex-row sm:items-center">
           <div className="flex items-center gap-3">
             <Monogram className="h-7 w-7 text-ochre-400" />
             <p className="text-xs text-bone-700">
-              © 1987–2026 Weft &amp; Warp, fine cloth merchants. Cloth is sold by the metre, faults chalk-marked.
+              © 1987–2026 Slimtex, fine cloth merchants. Cloth is sold by the metre, faults chalk-marked.
             </p>
           </div>
           <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-bone-700">

@@ -16,7 +16,7 @@ interface CartItem {
   metres: number;
 }
 
-const STORAGE_KEY = "weft-warp-cart-v1";
+const STORAGE_KEY = "slimtex-cart-v1";
 
 function loadCart(): CartItem[] {
   try {
