@@ -40,7 +40,7 @@ export function Header({
             <Monogram className="h-9 w-9 text-ochre-400 transition-transform duration-300 group-hover:-rotate-6" />
             <span className="leading-none">
               <span className="block font-display text-xl font-semibold tracking-tight text-bone-50">
-                Weft <span className="text-ochre-400">&amp;</span> Warp
+                slim<span className="text-ochre-400">tex</span>
               </span>
               <span className="mt-1 block text-[10px] font-bold uppercase tracking-[0.28em] text-bone-500">
                 Fine cloth merchants

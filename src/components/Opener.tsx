@@ -70,7 +70,7 @@ export function Opener({ onOpenProduct }: { onOpenProduct: (p: Product) => void 
         aria-hidden
         className="absolute left-4 top-1/2 hidden -translate-y-1/2 text-[10px] font-bold uppercase tracking-[0.5em] text-bone-700 [writing-mode:vertical-rl] xl:block"
       >
-        Fine cloth merchants — est. 1987
+        Slimtex — est. 1987
       </p>
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-4 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
@@ -146,7 +146,7 @@ export function Opener({ onOpenProduct }: { onOpenProduct: (p: Product) => void 
                 <circle cx="60" cy="60" r="57" stroke="currentColor" strokeWidth="1.4" strokeDasharray="3 4" opacity="0.7" />
                 <circle cx="60" cy="60" r="34" stroke="currentColor" strokeWidth="1" opacity="0.5" />
                 <text fontSize="10.5" fontWeight="700" letterSpacing="2.6" fill="currentColor">
-                  <textPath href="#stampcircle">EST. 1987 · FINE CLOTH · CUT TO ORDER ·</textPath>
+                  <textPath href="#stampcircle">SLIMTEX · EST. 1987 · CUT TO ORDER ·</textPath>
                 </text>
                 <path d="M50 60h20M60 50v20" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
               </svg>

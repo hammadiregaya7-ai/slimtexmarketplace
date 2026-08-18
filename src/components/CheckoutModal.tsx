@@ -122,7 +122,7 @@ export function CheckoutModal({
     if (!validatePayment()) return;
     setStep("processing");
     timerRef.current = window.setTimeout(() => {
-      setOrderNo(`WW-${Math.floor(1000 + Math.random() * 9000)}-${fields.name.trim().slice(0, 2).toUpperCase() || "OK"}`);
+      setOrderNo(`SL-${Math.floor(1000 + Math.random() * 9000)}-${fields.name.trim().slice(0, 2).toUpperCase() || "OK"}`);
       setStep("done");
     }, 2000);
   };
@@ -158,7 +158,7 @@ export function CheckoutModal({
                   {fmtMetres(totalMetres)} of cloth will be rolled into a kraft tube and couriered to{" "}
                   <span className="text-bone-100">{fields.city}</span>.
                 </p>
-                <p className="mt-2 text-xs text-bone-700">A receipt is on its way to {fields.email}.</p>
+                <p className="mt-2 text-xs text-bone-700">A Slimtex receipt is on its way to {fields.email}.</p>
                 <button
                   onClick={() => {
                     onComplete();
